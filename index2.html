@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sets the title and imports Bootstrap CSS for the rest of the webpage -->
+    <title>website 10</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  <!-- This is a container with a full width that will contain the banner image 
+    class "container-fluid" that creates a full-width container that scales with the screen size. -->
+  
+    <div class="container-fluid">
+          <!-- This is a row that will contain the banner image -->
+      <div class="row">
+         <!-- This is a column that will contain the banner image -->
+        <div class="col-12">
+            <!-- This is an image with the source, class, and alt attributes -->
+          <img
+            src="images/My project-1 (5).png "
+            class="img-fluid"
+            alt="Banner Image"
+          />
+        </div>
+      </div>
+    </div>
+
+<!-- This is the head section that contains the title and a link to a CSS file -->
+    <head>
+      <title>The Artist List</title>
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      />
+    </head>
+    <!-- This is the body section with a class that sets the background color -->
+
+    <body class=".bg-body-secondary">
+          <!-- This is a container that contains a heading and some paragraphs of text -->
+      <div class="container mt-5">
+        <h3>Welcome to The Artist List!</h3>
+        <h4>
+          <p>
+            Our platform is designed to showcase talented artists, connect you
+            with potential clients, and grow your network. All you have to do is
+            add yourself to The Artist List, fill in your information, and we'll
+            help promote you and connect you with other artists and clients.
+          </p>
+          <p>
+            Join The Artist List and become part of our community of talented
+            creators. You'll have the chance to discover new opportunities,
+            collaborate with clients to create amazing projects, and unlock new
+            possibilities for your career and business.
+          </p>
+          <p>
+            Don't miss out on the chance to expand your network, showcase your
+            skills, and connect with like-minded creatives. Join The Artist List
+            today and start building your career and business!
+          </p>
+        </h4>
+        <br />
+        <br />
+      </div>
+      <!-- This is a container with a row of four columns that each contain a card with an image, title, and button -->
+      <div class="container">
+         <!-- This row will have one column in small screens and four columns in medium screens and larger. The g-4 class adds some spacing between columns. -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+               <!-- This is the first column. It contains a card with an image, title, and button. -->
+          <div class="col">
+              <!-- The image source is set to "images/artist 2.png" and it is given a class of "card-img-top". The alt attribute provides alternative text for the image. -->
+            <div class="card">
+                <!-- The image source is set to "images/artist 2.png" and it is given a class of "card-img-top". The alt attribute provides alternative text for the image. -->
+        <img src="images/artist 2.png" class="card-img-top" alt="sculptor">
+       
+              <div class="card-body">
+                <!-- The card title is set to "Elane Bantun" and the card text is set to "Photographer". -->
+                <h5 class="card-title">Elane Bantun</h5>
+                <h6><p class="card-text">Photographer</p></h6>
+                 <!-- The button has a link and a class of "btn btn-outline-dark". -->
+                <a href="https://youtu.be/HYXqtlyJ3Uk" class="btn btn-outline-dark">website</a>
+              </div>
+              <!-- and it repeats itself with diffrent names and images -->
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/artist 3.png" class="card-img-top" alt="sculptor">
+              <div class="card-body">
+                <h5 class="card-title">Allan Workowitz</h5>
+                <h6><p class="card-text">Painter</p></h6>
+                <a href="https://youtu.be/c4mpf9CUy8Y" class="btn btn-outline-dark">website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/artist 1.png" class="card-img-top" alt="sculptor">
+              <div class="card-body">
+                <h5 class="card-title">Eza Blackrock</h5>
+                <h6><p class="card-text">Master Potter</p></h6>
+                <a href="https://youtu.be/HfhKqgBKrDg" class="btn btn-outline-dark">website</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/artist 4.png" class="card-img-top" alt="sculptor">
+              <div class="card-body">
+                <h5 class="card-title">Sarha Akhtar</h5>
+                <h6><p class="card-text">filmmaker</p></h6>
+                <a href="https://youtu.be/obah718Z-I8" class="btn btn-outline-dark">website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CSS for spacing between cards -->
+      <style>
+        .card {
+          margin-bottom: 20px;
+        }
+      
+        @media (min-width: 768px) {
+          .card {
+            margin-right: 20px;
+            margin-bottom: 0;
+          }
+      
+          .card:last-child {
+            margin-right: 0;
+          }
+        }
+      </style>
+      
+  
+      
+
+
+      <br />
+      <br />
+<!-- This section contains custom CSS code that sets the padding of all elements with the "form-group" class to 10px -->
+      <style>
+        .form-group {
+          padding: 10px;
+        }
+      </style>
+
+<!-- This is a container that holds the heading and the form -->
+      <div class="container">
+        <!-- This is the heading of the container -->
+        <h3 class="mt-3 mb-3">The Artist List</h3>
+        <!-- This is a form that allows users to input data. The "style" attribute is used to set the background color and font color of the form. -->
+        <form style="background-color: #170e04; color: white">
+            <!-- This is a form group that contains a label and an input element. The "label" element is associated with the "name" input using the "for" attribute. -->
+          <div class="form-group" class="form-row">
+            <!-- and it repats for rest of form rows -->
+            <h5><label for="name">Name:</label></h5>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="form-group" class="form-row">
+            <h5><label for="email">Email:</label></h5>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <div class="form-group" class="form-row">
+            <h5><label for="skills">Skills:</label></h5>
+            <input type="skl" class="form-control" id="skills" />
+          </div>
+          <div class="form-group" class="form-row">
+            <h5><label for="website">Website:</label></h5>
+            <input type="web" class="form-control" id="website" />
+          </div>
+          <button type="button" class="btn btn-primary" onclick="addRow()">
+            Add Row
+          </button>
+          <!-- <button type="button" class="btn btn-danger" onclick="deleteRows()">
+            Delete Rows
+          </button> -->
+        </form>
+        <table
+          class="table mt-3"
+          id="myTable"
+          style="background-color: #170e04; color: white"
+        >
+        <!-- This is a table that displays artist information such as  column for names, email,skills, website, action for delete button -->
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>skills</th>
+              <th>Website</th>
+
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div
+        class="container.lg text-left text-warning mb-1 fs-2 mt-5 bg-dark p-2 mb-3"
+      >
+        <p>copyright@emmanuelwhiteeagle2023</p>
+      </div>
+
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+
+    <body>
+      <script src="index.js"></script>
+    </body>
+  </html>
+</html>
